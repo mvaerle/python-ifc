@@ -1,0 +1,15 @@
+import sys
+
+sys.path.append("/Applications/FreeCAD.app/Contents/Frameworks/FreeCAD/")
+
+import FreeCADGui
+
+if __name__ == "__main__":
+
+    import sys
+    from PyQt4 import QtGui
+    app = QtGui.qApp
+    mw = app.activeWindow()
+
+#    FreeCADGui.showMainWindow()
+
